@@ -1,0 +1,12 @@
+{
+    "apps":[{
+        "name": "draw",
+        "script": "./node_modules/lavas/bin/lavas-cli.js",
+        "cwd": "./dist", 
+        "error_file": "./error/app.err.log",
+        "out_file": "./logs/app.out.log",
+        "exec_mode": "fork_mode",
+        "args":"start --port 8999",
+        "instances":4
+      }]
+}
